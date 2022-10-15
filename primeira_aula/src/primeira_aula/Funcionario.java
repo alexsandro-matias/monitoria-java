@@ -1,14 +1,9 @@
-package primeira_aula;
+package monitoria;
 
 public class Funcionario {
-    int matricula;
-    String nome;
-    String escolaridade;
-    double salario;
+	int matricula;
+	String nome;
+	double salario;
+	Endereco local;
 
-    public Funcionario(String escolaridade)
-    {
-        this.escolaridade = escolaridade;
-    }
 }
-
