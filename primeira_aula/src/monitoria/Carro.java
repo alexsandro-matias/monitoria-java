@@ -1,9 +1,8 @@
 package monitoria;
 
-public class Carro {
+public class Carro
+{
 	String modelo;
 	double preco;
 	Roda roda;
-	
-
 }

@@ -1,9 +1,9 @@
 package monitoria;
 
-public class Funcionario {
+public class Funcionario
+{
 	int matricula;
 	String nome;
 	double salario;
 	Endereco local;
-
 }

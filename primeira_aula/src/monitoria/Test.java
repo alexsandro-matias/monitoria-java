@@ -1,4 +1,4 @@
-package primeira_aula;
+package monitoria;
 
 public class Test {
 	
