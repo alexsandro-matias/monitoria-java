@@ -24,10 +24,10 @@ public class TestFuncionario
 		// double bolsa = sandro.ValorFinalDaBolsa();
 		// System.out.println(bolsa);
 		// //
-		Aluno sandro = new Aluno();
-		sandro.ValorFinalDaBolsa();
+		Bolsista matias = null;
+		new Aluno(matias);
 		//
-		// System.out.println(sandro.ValorFinalDaBolsa());
+		 System.out.println(matias.ValorFinalDaBolsa());
 		// System.out.println(alex.ValorFinalDaBolsa());
 	}
 }
