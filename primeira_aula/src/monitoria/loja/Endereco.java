@@ -1,4 +1,4 @@
-package monitoria;
+package monitoria.loja;
 
 public class Endereco {
 	String rua;

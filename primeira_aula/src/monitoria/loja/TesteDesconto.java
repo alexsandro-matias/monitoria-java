@@ -1,4 +1,4 @@
-package monitoria;
+package monitoria.loja;
 
 import java.util.Scanner;
 

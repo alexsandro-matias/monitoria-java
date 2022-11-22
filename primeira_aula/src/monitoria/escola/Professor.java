@@ -1,4 +1,4 @@
-package monitoria;
+package monitoria.escola;
 
 public class Professor extends Funcionario
 {

@@ -1,4 +1,4 @@
-package monitoria;
+package monitoria.autos;
 
 public class Carro
 {
