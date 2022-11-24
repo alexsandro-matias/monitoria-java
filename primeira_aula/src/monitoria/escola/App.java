@@ -1,6 +1,6 @@
 package monitoria.escola;
 
-public class TestFuncionario
+public class App
 {
 	public static void main(String[] args)
 	{
@@ -24,10 +24,8 @@ public class TestFuncionario
 		// double bolsa = sandro.ValorFinalDaBolsa();
 		// System.out.println(bolsa);
 		// //
-		Bolsista matias = null;
-		new Aluno(matias);
-		//
-		 System.out.println(matias.ValorFinalDaBolsa());
+		Aluno aluno = new Aluno();
+		System.out.println(aluno.valorFinalDaBolsa());
 		// System.out.println(alex.ValorFinalDaBolsa());
 	}
 }

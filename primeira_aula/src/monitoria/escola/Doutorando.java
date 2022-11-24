@@ -1,8 +1,8 @@
 package monitoria.escola;
 
-public interface Doutorando
+public interface Doutorando extends Bolsista
 {
-	public default double ValorFinalDaBolsa()
+	public default double valorFinalDaBolsa()
 	{
 		return Constants.BOLSA_DOUTORADO;
 	}

@@ -1,17 +1,12 @@
 package monitoria.escola;
 
-public class Aluno implements Mestrando, Doutorando, Bolsista
+public class Aluno implements Bolsista
 {
 	private Bolsista bolsista;
 	
-	public Aluno(Bolsista bolsista)
-	{
-		super();
-		this.bolsista = bolsista;
-	}
 	
-	@Override public double ValorFinalDaBolsa()
+	@Override public double valorFinalDaBolsa()
 	{
-		return Doutorando.super.ValorFinalDaBolsa();
+		return this.bolsista.valorFinalDaBolsa();
 	}
 }
