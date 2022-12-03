@@ -1,12 +1,28 @@
 package monitoria.escola;
 
-public class Aluno implements Bolsista
+import java.util.ArrayList;
+
+public class Aluno implements BolsistaAtleta
 {
-	private Bolsista bolsista;
+	private String nome;
+	private String matricula;
+	private ArrayList<Aluno> listaDeAluno;
 	
-	
-	@Override public double valorFinalDaBolsa()
+	@Override public void setValorFinalDaBolsa(double novoValor)
 	{
-		return this.bolsista.valorFinalDaBolsa();
+	}
+	
+	@Override public void escreverRelatorioParcial()
+	{
+		System.out.println("Aluno escrevendo relatório");
+	}
+	
+	@Override public void treinar()
+	{
+	}
+	
+	@Override public void competir()
+	{
+		System.out.println("Aluno competindo");
 	}
 }
