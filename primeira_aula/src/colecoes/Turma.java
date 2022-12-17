@@ -2,8 +2,6 @@ package colecoes;
 
 import java.util.ArrayList;
 
-import monitoria.escola.Aluno;
-
 public class Turma
 {
 	private ArrayList<Aluno> listaAlunos;
@@ -14,4 +12,15 @@ public class Turma
 		this.listaAlunos = listaAlunos;
 		this.listaProfessores = listaProfessores;
 	}
+	
+	
+	
+	
+
+	@Override public String toString()
+	{
+		return "Turma [listaAlunos=" + listaAlunos + ", listaProfessores=" + listaProfessores + "]";
+	}
+	
+	
 }

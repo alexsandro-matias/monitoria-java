@@ -17,5 +17,7 @@ public class Main
 		listaProfessores.add(professor1);
 		listaProfessores.add(professor2);
 		Turma oo = new Turma(listaAlunos, listaProfessores);
+		System.out.println(oo);
+		System.out.println(listaProfessores.size());
 	}
 }
