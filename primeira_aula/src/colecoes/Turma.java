@@ -1,6 +1,5 @@
 package colecoes;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Turma
@@ -10,12 +9,11 @@ public class Turma
 	private String nome;
 	private int codigo;
 	
-	public Turma(int codigoTurma, String nome, List<Aluno> listaAlunos, List<Professor> listaProfessores)
+	public Turma(String nome, List<Aluno> listaAlunos, List<Professor> listaProfessores)
 	{
 		this.listaAlunos = listaAlunos;
 		this.listaProfessores = listaProfessores;
 		this.nome = nome;
-		this.codigo = codigoTurma;
 	}
 	
 	@Override public String toString()
