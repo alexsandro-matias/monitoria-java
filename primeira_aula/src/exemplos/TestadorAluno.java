@@ -22,6 +22,9 @@ public class TestadorAluno
 //		terceiroAluno = new Aluno(null, "20222y6-rc1234");
 		
 		primeiroAluno = new Aluno(null, null);
+		
+		Aluno aluno = new Aluno("Alexsandro", "15644564561465");
+		
 		comparaAlunos(primeiroAluno, primeiroAluno);
 //		comparaAlunos(primeiroAluno, segundoAluno);
 //		comparaAlunos(terceiroAluno, segundoAluno);
