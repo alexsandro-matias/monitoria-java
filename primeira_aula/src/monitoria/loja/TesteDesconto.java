@@ -15,6 +15,7 @@ public class TesteDesconto
 		System.out.println("Informe o desconto do produto: ");
 		double desconto = leitor.nextDouble();
 		produto.DescontoNoProduto(desconto);
+		System.out.println();
 		System.out.println(produto.preco);
 	}
 }
