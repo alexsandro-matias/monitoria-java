@@ -1,0 +1,17 @@
+Requisitos do sistema:
+
+- Criar um contador em Turma para permitir a geração automática do ID da turma. O campo deve ser estático.
+deve ser criado um método com a seguinte assinatura.
+private int geraProximoIdTurma();
+O método deve incrementar o contador e retornar o próximo valor.
+
+- Criar um construtor em Turma capaz de montar uma turma, dado apenas o nome.
+
+- Criar uma classe RegistroDeAluno, para ajudar a montar a classe Turma. 
+O registro deverá representar todas as informações que o aluno conquistou nesta turma, em particular as notas.
+
+- Crie uma classe Pessoa para capturar tudo o que há de comum entre o Aluno e o Professor.
+Esta classe deverá receber todos os dados e métodos que são comuns às demais classes.
+
+Extra:
+- Crie uma classe GeradorArquivoCSV, que recebe um grupo de alunos e gera uma saída no formato CSV.
