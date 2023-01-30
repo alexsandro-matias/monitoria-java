@@ -1,0 +1,15 @@
+#Comentário do properties (COM WRITER!) aqui!!
+#Wed Jan 25 04:02:10 BRT 2023
+debug=true
+log=verbose
+Versão=1
+#Comentário do properties (COM WRITER!) aqui!!
+#Wed Jan 25 04:04:43 BRT 2023
+debug=true
+log=verbose
+Versão=1
+#Comentário do properties (COM WRITER!) aqui!!
+#Wed Jan 25 04:04:53 BRT 2023
+debug=true
+log=verbose
+Versão=1
