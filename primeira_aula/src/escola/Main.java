@@ -17,7 +17,7 @@ public class Main
 		 Professor professor2 = new Professor("Anderson Moreira", "9878798");
 		 listaProfessores.add(professor1);
 		 listaProfessores.add(professor2);
-		 Turma oo = new Turma("Programação Orientada a Objetos", listaAlunos, listaProfessores);
+		 RegistroAluno oo = new RegistroAluno("Programação Orientada a Objetos", listaAlunos, listaProfessores);
 		 
 		 System.out.println(oo);
 	}

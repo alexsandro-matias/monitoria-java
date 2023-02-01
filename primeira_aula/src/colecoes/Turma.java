@@ -32,8 +32,4 @@ public class Turma
 		this.nome = nome;
 	}
 	
-	private void impressaoRelatorioTurma()
-	{
-		System.out.println("Turma: " + this.getNome());
-	}
 }

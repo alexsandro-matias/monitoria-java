@@ -16,5 +16,6 @@ public class TesteDesconto
 		double desconto = leitor.nextDouble();
 		produto.DescontoNoProduto(desconto);
 		System.out.println(produto.preco);
+		leitor.close();
 	}
 }

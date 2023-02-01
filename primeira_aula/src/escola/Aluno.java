@@ -4,18 +4,34 @@ public class Aluno
 {
 	private String nome;
 	private String matricula;
+	private static int codigoIteravelAluno = 0;
 	private int codigoAluno;
-	private static int codigo = 0; 
-
+	
 	public Aluno(String nomeAluno, String matriculaAluno)
 	{
 		this.nome = nomeAluno;
 		this.matricula = matriculaAluno;
-		codigoAluno = codigo++;
+		codigoIteravelAluno++;
+		codigoAluno = codigoIteravelAluno;
 	}
-
+	
 	@Override public String toString()
 	{
-		return "Aluno [nome	=" + this.nome + ", Código=" + this.codigoAluno + "]";
+		return getMatricula() + "," + getNome() + "\n";
+	}
+	
+	public String getNome()
+	{
+		return nome;
+	}
+	
+	public String getMatricula()
+	{
+		return matricula;
+	}
+	
+	public int getCodigoAluno()
+	{
+		return codigoAluno;
 	}
 }
