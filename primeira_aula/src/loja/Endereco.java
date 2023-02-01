@@ -2,7 +2,7 @@ package loja;
 
 public class Endereco
 {
-	String rua;
+	private String rua;
 	String cep;
 	String numero;
 }
