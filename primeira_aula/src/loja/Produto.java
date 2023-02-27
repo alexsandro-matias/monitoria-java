@@ -1,26 +1,19 @@
-
 package loja;
 
-public class Produto
-{
-	String nome;
-	double preco;
+public class Produto {
+    String nome;
+    double preco;
 
-	public void DescontoNoProduto(double desconto)
-	{
-		if (desconto > 0)
-		{
+    public void DescontoNoProduto(double desconto) {
+        if (desconto > 0) {
 
-			this.preco = this.preco - (this.preco * (desconto / 100));
-		}
+            this.preco = this.preco - (this.preco * (desconto / 100));
+        } else {
 
-		else
-		{
+            System.out.println("Valor de desconto inválido.");
+            System.out.println("Valor do produto não foi alterado.");
+        }
 
-			System.out.println("Valor de desconto inválido.");
-			System.out.println("Valor do produto não foi alterado.");
-		}
-
-	}
+    }
 
 }
